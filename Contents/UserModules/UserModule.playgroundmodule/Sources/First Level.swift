@@ -57,7 +57,7 @@ public class MyViewController : UIViewController {
         if heartsValue >= 2 {
             for i in 2...heartsValue {
                 let h = i - 2
-                hearts[h].image = UIImage(named: "Coração")
+                hearts[h].image = UIImage(named: "Coracao")
                 hearts[h].frame = CGRect(x: 31.0 + Double(50 * h), y: 18.0, width: 49.89, height: 39.35)
                 view.addSubview(hearts[h])
             }

@@ -7,7 +7,7 @@ public class Alien: UIButton{
     public var x: Int
     public var y: Int
     public var didTalk: Bool = false
-    public var face: UIImage = UIImage(named: "Cabeça Verde")!
+    public var face: UIImage = UIImage(named: "Cabeca Verde")!
     public var color: String
     
     public init(side: String = "baixo", x: Int, y: Int, text: String, color: String) {
@@ -24,17 +24,17 @@ public class Alien: UIButton{
         
         switch color{
         case "amarelo":
-            self.face = UIImage(named: "Cabeça Amarelo")!
+            self.face = UIImage(named: "Cabeca Amarelo")!
             self.setBackgroundImage(UIImage(named: "ET Amarelo")!, for: .normal)
             self.frame.size.width = 66
             self.frame.origin.x = CGFloat(x * 62 - 3)
         case "roxo":
-            self.face = UIImage(named: "Cabeça Roxo")!
+            self.face = UIImage(named: "Cabeca Roxo")!
             self.setBackgroundImage(UIImage(named: "ET Roxo")!, for: .normal)
             self.frame.size.width = 71
             self.frame.origin.x = CGFloat(x * 62)
         case "verde":
-            self.face = UIImage(named: "Cabeça Verde")!
+            self.face = UIImage(named: "Cabeca Verde")!
             self.setBackgroundImage(UIImage(named: "ET Verde")!, for: .normal)
             self.frame.size.width = 50
         default: break
