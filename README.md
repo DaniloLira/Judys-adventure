@@ -1,4 +1,4 @@
-# Judy's Adventure
+# Judys Adventure
 
  ## O que é Judy Adventures?
  É um jogo que estimula o estudo de física a partir de questões contextualizadas com o mundo de Judy. 
